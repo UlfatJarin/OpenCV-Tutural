@@ -72,7 +72,7 @@ cv2.filter2D(src, depth ,Kernel)
 
 """
 
-image= cv2.imread("books.jpg")
+'''image= cv2.imread("books.jpg")
 
 sharpen_kernel = np.array([
     [ 0, -1 ,  0],
@@ -85,7 +85,7 @@ sharpen = cv2.filter2D(image , -1 ,sharpen_kernel)
 cv2.imshow("Orginal image",image)
 cv2.imshow("Sharpend image",sharpen)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()'''
 
 
 

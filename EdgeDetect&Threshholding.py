@@ -45,14 +45,14 @@ find detecttion when light is changing  angwith many noice
 import cv2
 import numpy as np
 
-'''img = cv2. imread("bluebird.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2. imread("bluebird.jpg", cv2.IMREAD_GRAYSCALE)
 
 edges = cv2.Canny(img, 50,150)
 
 cv2.imshow("orginal Image",img)
 cv2.imshow("Edges", edges)
 cv2.waitKey(0)
-cv2.destroyAllWindows()'''
+cv2.destroyAllWindows()
 
 
 
@@ -70,14 +70,14 @@ cv2.destroyAllWindows()'''
 
  
 """
-'''img = cv2. imread("bluebird.jpg", cv2.IMREAD_GRAYSCALE)
+img = cv2. imread("bluebird.jpg", cv2.IMREAD_GRAYSCALE)
 
-ret ,thresh_img = cv2.threshold(img,120 , 255, cv2.THRESH_BINARY)
+ret ,thresh_img = cv2.threshold(img, 120 , 255, cv2.THRESH_BINARY)
 
 cv2.imshow("orginal Image",img)
 cv2.imshow("Edges",thresh_img)
 cv2.waitKey(0)
-cv2.destroyAllWindows()'''
+cv2.destroyAllWindows()
 
 
 #Bitwise operation...........................................

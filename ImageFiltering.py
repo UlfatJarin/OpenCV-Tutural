@@ -12,7 +12,7 @@ sharp to smoorth
 kernel
 
 """
-#Gaussian Blur 
+#Gaussian Blur ...................................................................
 """
 - soft & smoth
 - noise remove 
@@ -27,35 +27,35 @@ kernel_size =window size-  always odd number - (3,3) ,(5,5),(9,9)
       (21,21)= super blue
 
 sigma = howstrong blur
-   0- oven cv2 decided 
+   0- open cv2 decided 
 """
 
-'''image= cv2.imread("books.jpg")
+image= cv2.imread("books.jpg")
 
 blurred = cv2.GaussianBlur(image ,(7,7), 3)
 
 cv2.imshow("Orginal image",image)
 cv2.imshow("Blurred image",blurred)
 cv2.waitKey(0)
-cv2.destroyAllWindows()'''
+cv2.destroyAllWindows()
 
 
+#median blur..................................................................................... 
 """
-median blur 
      - spot detect & remove
      - medium value uses
 blurred = cv.medianBlur(image, kernel_size)
     - 
 
 """
-'''image= cv2.imread("cousin.jpg")
+image= cv2.imread("cousin.jpg")
 
 blurred = cv2.medianBlur(image , 3)
 
 cv2.imshow("Orginal image",image)
 cv2.imshow("cleand image",blurred)
 cv2.waitKey(0)
-cv2.destroyAllWindows()'''
+cv2.destroyAllWindows()
 
 #Sharping ....................................................................
 """

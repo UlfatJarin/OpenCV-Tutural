@@ -1,1 +1,1 @@
-image
+  MedianBlur = cv2.medianBlur(image, 3)
